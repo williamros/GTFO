@@ -9,8 +9,8 @@ Escanea el equipo (linux like) en archivos SUID y luego ve si existen coincidenc
 De existir los lista y te da la url para mas informacion.
 
 ## Como se ve?
+```sh
 
-"""bash
 $./GTFO.sh 
 
 
@@ -70,8 +70,9 @@ $./GTFO.sh
 
 [!] [[su]] - vuln: [ sudo  ]
     URL: https://gtfobins.github.io/gtfobins/su/
+```
 
-"""
+Si me conocieran sabrian que es demasiado para mi
 
 
 
