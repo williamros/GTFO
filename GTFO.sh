@@ -10,6 +10,7 @@
 #
 #
 
+# Colorines gracias a s4vitar ;)
 greenC="\e[0;32m\033[1m"
 endC="\033[0m\e[0m"
 redC="\e[0;31m\033[1m"
