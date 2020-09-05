@@ -53,8 +53,6 @@ done
 echo -e "\n\n${greenC}[*]${endC} ${turqC}Posibles binarios explotables:${endC}"
 echo -e "${yellowC}    ------------------------------${endC}\n"
 
-#suid_expl+=$(echo -e "awk  cat  chroot") #hardcodeado para testeo <-- borrar
-
 for bin in $suid_expl; do
 
 	vulns=$(curl -s $gtfo$bin/index.html | grep '<a href="/gtfobins/' | cut -d '#' -f2 | cut -d '"' -f1 | tr '\n' ' ')
